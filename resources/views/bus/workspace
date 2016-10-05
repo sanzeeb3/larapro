@@ -1,0 +1,91 @@
+<NotepadPlus>
+    <Project name="Online betting">
+        <File name="betview.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\app\Http\routes.php" />
+        <File name="C:\xampp\htdocs\larapro\app\Http\Controllers\betcontroller.php" />
+    </Project>
+    <Project name="Online Flight ticket">
+        <File name="busview.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\app\bus.php" />
+        <File name="C:\xampp\htdocs\larapro\app\seats.php" />
+        <File name="C:\xampp\htdocs\larapro\app\Http\routes.php" />
+        <File name="C:\xampp\htdocs\larapro\app\Http\Controllers\buscontroller.php" />
+    </Project>
+    <Project name="Online quiz">
+        <File name="C:\xampp\htdocs\larapro\resources\views\quiz\check.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\resources\views\quiz\contactform.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\resources\views\quiz\email.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\resources\views\quiz\index.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\resources\views\quiz\login.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\resources\views\quiz\layouts\main.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\app\quiz.php" />
+        <File name="C:\xampp\htdocs\larapro\app\Result.php" />
+        <File name="C:\xampp\htdocs\larapro\app\User.php" />
+        <File name="C:\xampp\htdocs\larapro\app\Http\Controllers\playquiz.php" />
+    </Project>
+    <Project name="Review System">
+        <File name="C:\xampp\htdocs\larapro\app\Http\Controllers\reviewcontroller.php" />
+        <File name="review.blade.php" />
+    </Project>
+    <Project name="hostel">
+        <Folder name="hotel booking system">
+            <File name="C:\xampp\htdocs\hostel\hotel booking system\bookhotel.php" />
+            <File name="C:\xampp\htdocs\hostel\hotel booking system\prac3.php" />
+        </Folder>
+        <File name="C:\xampp\htdocs\hostel\agreebeforeposting.js" />
+        <File name="C:\xampp\htdocs\hostel\bookhotel.php" />
+        <File name="C:\xampp\htdocs\hostel\contact.php" />
+        <File name="C:\xampp\htdocs\hostel\delete.php" />
+        <File name="C:\xampp\htdocs\hostel\delete1.php" />
+        <File name="C:\xampp\htdocs\hostel\deleteselected.php" />
+        <File name="C:\xampp\htdocs\hostel\edit.php" />
+        <File name="C:\xampp\htdocs\hostel\edit1.php" />
+        <File name="C:\xampp\htdocs\hostel\edit2.php" />
+        <File name="C:\xampp\htdocs\hostel\edit3.php" />
+        <File name="C:\xampp\htdocs\hostel\employeerecords.php" />
+        <File name="C:\xampp\htdocs\hostel\employeerecords1.php" />
+        <File name="C:\xampp\htdocs\hostel\errorlogin.php" />
+        <File name="C:\xampp\htdocs\hostel\functions.php" />
+        <File name="C:\xampp\htdocs\hostel\index.php" />
+        <File name="C:\xampp\htdocs\hostel\input.php" />
+        <File name="C:\xampp\htdocs\hostel\inputnow.php" />
+        <File name="C:\xampp\htdocs\hostel\jquery.js" />
+        <File name="C:\xampp\htdocs\hostel\loginhome.php" />
+        <File name="C:\xampp\htdocs\hostel\logout.php" />
+        <File name="C:\xampp\htdocs\hostel\move.php" />
+        <File name="C:\xampp\htdocs\hostel\moveselected.php" />
+        <File name="C:\xampp\htdocs\hostel\new-page-2.php" />
+        <File name="C:\xampp\htdocs\hostel\Picture1.jpg" />
+        <File name="C:\xampp\htdocs\hostel\prac - Copy.php" />
+        <File name="C:\xampp\htdocs\hostel\prac.php" />
+        <File name="C:\xampp\htdocs\hostel\prac3.php" />
+        <File name="C:\xampp\htdocs\hostel\script.js" />
+        <File name="C:\xampp\htdocs\hostel\search with description.php" />
+        <File name="C:\xampp\htdocs\hostel\search.php" />
+        <File name="C:\xampp\htdocs\hostel\studentrecords.php" />
+        <File name="C:\xampp\htdocs\hostel\studentrecords1.php" />
+        <File name="C:\xampp\htdocs\hostel\style.css" />
+        <File name="C:\xampp\htdocs\hostel\style.ie6.css" />
+        <File name="C:\xampp\htdocs\hostel\style.ie7.css" />
+        <File name="C:\xampp\htdocs\hostel\upload.php" />
+        <File name="C:\xampp\htdocs\hostel\uploader.class.php" />
+        <File name="C:\xampp\htdocs\hostel\view.php" />
+        <File name="C:\xampp\htdocs\hostel\view1.php" />
+        <File name="C:\xampp\htdocs\hostel\view2.php" />
+        <File name="C:\xampp\htdocs\hostel\view3.php" />
+        <File name="C:\xampp\htdocs\hostel\viewemployeerecords.php" />
+        <File name="C:\xampp\htdocs\hostel\viewemployeerecords1.php" />
+        <File name="C:\xampp\htdocs\hostel\viewsearchresults.php" />
+        <File name="C:\xampp\htdocs\hostel\viewstudentrecords.php" />
+        <File name="C:\xampp\htdocs\hostel\viewstudentrecords1.php" />
+    </Project>
+    <Project name="Telephone">
+        <File name="C:\xampp\htdocs\larapro\app\Http\Controllers\telephonecontroller.php" />
+        <File name="C:\xampp\htdocs\larapro\resources\views\telephone\addview.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\resources\views\telephone\edit.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\resources\views\telephone\main.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\resources\views\telephone\searchview.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\resources\views\telephone\show.blade.php" />
+        <File name="C:\xampp\htdocs\larapro\resources\views\telephone\telephoneview.blade.php" />
+    </Project>
+</NotepadPlus>

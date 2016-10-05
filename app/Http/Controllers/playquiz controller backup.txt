@@ -1,0 +1,79 @@
+<?php
+
+
+
+namespace App\Http\Controllers;
+
+
+use App\quiz;
+use DB;
+use Illuminate\Http\Request;
+
+
+use App\Http\Requests;
+
+
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
+
+class playquiz extends Controller
+{
+   
+
+  public function index()
+  {
+      
+      $show = DB::select('select * from quiz where category="gk" ');
+      return View('quiz.index',['quiz'=>$show]);
+ }
+  public function check(Request $request, $name, $no)
+  {
+
+	$count=0; 
+	$input=$request->all();
+	$mycheck=$input['mycheck'];
+        $eman=$input['name'];
+        $ch = DB::select('select * from quiz where category=? and level=?',["$name","$no"] );
+	foreach ($ch as $c)
+	{
+ 
+		 if(array_key_exists($c->qid, $mycheck) && $mycheck[$c->qid]==$c->answer)
+      		{
+				$count=$count+1;
+	 	}
+	}
+
+
+        $stmt = DB::insert('insert into results (Name,Score,Level) values(?,?,?)', ["$eman","$no","$count"]);
+
+        return View('quiz.check',['quiz'=>$ch,'input'=>$input,'count'=>$count,'eman'=>$eman,'mycheck'=>$mycheck]);	 
+
+ }
+
+  public function category($name)
+  {
+        $ch = DB::select('select * from quiz where category=?',["$name"]);
+        return View('quiz.index',['quiz'=>$ch]);	 
+
+ }
+  public function create()
+  {
+      return View('quiz.create');	
+
+ }
+  public function store(Request $request)
+  {
+    $input =$request->all();
+    $q=new quiz();
+    $q->question=$input['question'];
+    $q->answer=$input['answer'];
+    $q->opt1=$input['opt1'];
+    $q->opt2=$input['opt2'];
+    $q->opt3=$input['opt3'];
+    $q->save();
+    return redirect()->action('playquiz@index');
+
+ }
+}

@@ -245,3 +245,4 @@ class Crudcontroller extends Controller
                 ->with('message','Logged out!');
     }
 }
+//here is the comment
